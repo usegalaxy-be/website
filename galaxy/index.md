@@ -1,57 +1,94 @@
 ---
-layout: external-galaxy
+layout: galaxy
 ---
 
-<div class="row eu-image-box">
-	<a href="https://www.elixir-belgium.org/" target="_blank">
-		<img src="/assets/media/ELIXIR_BELGIUM_white_background.png"  class="img-responsive eu-image"/>
-	</a>
-	<a href="https://www.ugent.be/en" target="_blank">
-		<img src="/assets/media/UGent_EN.png"  class="img-responsive eu-image"/>
-	</a>
-	<a href="https://www.vscentrum.be/" target="_blank">
-		<img src="/assets/media/logo_VSC.svg"  class="img-responsive eu-image"/>
-	</a>
-	<a href="http://www.vib.be/en/pages/default.aspx" target="_blank">
-		<img src="/assets/media/vib_rf_plant_systems_biology_rgb_pos.png"  class="img-responsive eu-image"/>
-	</a>
+<div class="row eu-image-center" id="logos">
+<div class="half">
+
+
+
+<div align="center" class="row eu-image-center">
+        <a href="https://www.elixir-belgium.org/" target="_blank">
+                <img src="/assets/media/ELIXIR_BELGIUM_white_background.png"  class="img-responsive eu-image"/>
+        </a>
+        <a target="_blank">
+                <img src="/assets/media/fwo_logo.jpg"  class="img-responsive eu-image"/>
+        </a>
+        <a target="_blank">
+                <img src="/assets/media/EWI_leeuw_ENG.jpg"  class="img-responsive eu-image"/>
+        </a>
 </div>
 
-# How to use Galaxy?
+<p>This instance of Galaxy is provided by the Belgian ELIXIR node, funded by Flemish government </p>
 
-## Tools
 
-In the left panel of this page you will find the list of available tools, you can see this page at any point by clicking 'Analyze Data' in the top menu.
+</div>
 
-## History
+<div class="half">
 
-The history of your current data analysis is shown in the right panel. A good practice when running multiple analysis in parallel is to create several histories and give each one a unique name.
-You can click on 'View all histories' button (upper right corner in histories panel) to get an overview and switch between the current histories.
+<div align="center" class="row eu-image-center">
+        <a href="https://www.vscentrum.be/" target="_blank">
+                <img src="/assets/media/VSC_new_logo.webp"  class="img-responsive eu-image"/>
+        </a>
 
-## Input Data
+</div>
+<h3  align="center"> UseGalaxy.be is utilizing infrastructure provided by <a href="https://www.vscentrum.be/" target="_blank">VSC</a>  </h3>
 
-Every analysis starts with getting the input data into your current history (right panel). To do this you can upload your own input files or use shared datasets.
-To upload files from your computer or instruct Galaxy to download files from the web you have to use of the upload tool: Get data (tool panel on the left) → upload file. Please DO NOT UPLOAD LARGE FILES (~GB), but contact the administrator to create a central data repository!
-To use available shared data you have to click on Shared data (top menu) → Data Libraries. You can then browse the available libraries and select the file/s you want to use. By clicking 'to History' button and choosing the desired History name you will import these files and make them available to use as input for future analysis.
+</div>
 
-## Execution
+</div>
 
-To run a job select the tool from tool panel on the left, then the corresponding interface will be loaded and you will be able to select corresponding input data and (re)define parameters.
-Please read carefully the labels and help text next to the input fields. After clicking Execute you will be able to see entries for each  in your history.
-The color of a dataset designates the current status of the underlying job
 
-Color                                     | State
----                                       | ---
-<span style="color: gray">Gray</span>     | The job is being evaluated to run (new dataset) or is queued. Allow this to complete.
-<span style="color: orange">Yellow</span> | The job is executing.
-<span style="color: green">Green</span>   | Successful processing.
-<span style="color: red">Red</span>       | The job has failed.
-<span style="color: blue">Blue</span>     | The job is paused. This indicates either a problem with an input (a previous step in the workflow may have failed) or that you have exceeded disk quota set by the administrator of the Galaxy instance you are working on.
-{: .table.table-striped}
 
-# Workflows
 
-You can automate your analysis pipeline by using workflows composed of several tools linked by their input/output data. In the Workflows section (upper menu) you can see a list of current workflows and also create your own ones.
-It is also possible (and highly recommended) to use the shared, and widely tested, workflows available under Shared Data (top menu) → workflows. To use one of these you first need to import it to your workflows list by clicking on the name and selecting Import. To execute any workflow listed under your workflows first click on it and select run, then choose the input data as with any tool.
+
+
+
+
+<div>
+
+<div>
+<h2 >UseGalaxy.be: The Belgian Galaxy instance</h2>
+<div class="col-md-6" style="padding: 1em;">
+                <ul>
+                <li><i class="fa fa-cogs"></i> Thousands of documented and maintained tools</li>
+                <li><i class="fa fa-user-plus"></i> Free to use</li>
+                <li><i class="fa fa-hdd-o"></i> 50 GB for any registered users (5GB for unregistered users)</li>
+                <li><i class="fa fa-graduation-cap"></i> On demand training capacity</li>
+                </ul>
+</div>
+</div>
+
+
+<div align="center" class="row eu-image-center">
+
+<div class="column">
+        <a href="https://www.ugent.be/en" target="_blank">
+                <img src="/assets/media/UGent_EN.png"  class="img-responsive eu-image"/>
+        </a>
+</div>
+<div class="column">
+        <a href="http://www.vib.be/en/pages/default.aspx" target="_blank">
+                <img src="/assets/media/vib_rf_plant_systems_biology_rgb_pos.png"  class="img-responsive eu-image"/>
+        </a>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+
+<h2> Get started </h2>
+Galaxy is an open source, web-based platform for data intensive biomedical research. If you are new to Galaxy  <a href="http://usegalaxy.org/galaxy101" target="_blank">start here</a> or consult our help resources. You can install your own Galaxy by following the <a href="http://getgalaxy.org" target="_blank">tutorial</a> and choose from thousands of tools from the <a href="https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial/" target="_blank">Tool Shed</a>.
+
+
+
+
 
 {% include home_news_events-galaxy.html %}
+
+
+
