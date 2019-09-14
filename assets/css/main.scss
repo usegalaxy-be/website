@@ -40,8 +40,9 @@ h4 small, .h4 small, h5 small, .h5 small, h6 small, .h6 small, h4 .small, .h4 .s
   font-size: 75%;
 }
 h1, .h1 {
-  font-size: 24px;
+  font-size: 28px;
 }
+
 h2, .h2 {
   font-size: 21px;
 }
@@ -194,6 +195,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.belgian-node {
+    width: 100%;
 }
 
 .eu-image {
