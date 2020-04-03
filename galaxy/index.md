@@ -7,12 +7,12 @@ layout: galaxy
 
 <div class="half">
 
-<div align="center" class="row eu-image-center">
+<div align="left" class="row eu-image-center">
        <a href="https://www.elixir-belgium.org/" target="_blank">
                 <img src="/assets/media/ELIXIR_BELGIUM_white_background.png"  class="img-responsive eu-image"/>
         </a> 
         <a href="https://www.vscentrum.be/" target="_blank">
-                <img src="/assets/media/VSC_new_logo.webp"  class="img-responsive eu-image"/>
+                <img src="/assets/media/VSC_new_logo.png"  class="img-responsive eu-image"/>
         </a>
 
 </div>
@@ -27,7 +27,7 @@ layout: galaxy
 
 
 
-<div align="center" class="row eu-image-center">
+<div align="left" class="row eu-image-center">
         <a target="_blank">
                 <img src="/assets/media/fwo_logo.jpg"  class="img-responsive eu-image"/>
         </a>
@@ -82,7 +82,7 @@ Galaxy is an open source, web-based platform for data intensive biomedical resea
 
 
 <div align="center">
-<div align="center" class="row eu-image-center">
+<div align="left" class="row eu-image-center">
 <a href="https://www.ugent.be/en" target="_blank">
                 <img src="/assets/media/logos_ugent_vib_merge.png"  class="img-responsive eu-image"/>
         </a>
