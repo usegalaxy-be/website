@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: belgium
 tags: [workshop]
 title: ELIXIR 2019 All Hands
 location:

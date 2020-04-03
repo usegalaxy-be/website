@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: belgium
 tags:
 - training
 title: Bioconda Collaboration Fest

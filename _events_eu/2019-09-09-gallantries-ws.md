@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: belgium
 tags: [training]
 title: "RNA-seq workshop for beginners: from sequences to visualization using Galaxy and R"
 starts: 2019-10-07

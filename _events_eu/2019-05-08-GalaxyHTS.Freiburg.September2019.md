@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: belgium
 tags:
 - training
 title: Galaxy HTS data analysis workshop in Freiburg
