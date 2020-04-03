@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: belgium
 title: Galactic September News
 tags: [galaxy]
 external: https://galaxyproject.org/news/2019-09-galaxy-update/
